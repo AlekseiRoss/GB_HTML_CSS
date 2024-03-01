@@ -1,0 +1,65 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#products-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+
+}
+
+.product {
+    flex: 0 0 30%; /* 30% ширины родительского контейнера */
+    box-sizing: border-box;
+    padding: 20px;
+    border: 3px solid #ff00a278;
+    margin: 10px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Стиль для всех ссылок меню */
+.menu-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+/* Стиль для всех заголовков h1 */
+.h1-style {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/* Стиль для всех параграфов */
+.paragraph-style {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+/* Стиль для всех заголовков h2 */
+.h2-style {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
